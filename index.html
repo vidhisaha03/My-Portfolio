@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
+    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
 
-    <!-- Bootstrap Js -->
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -18,67 +18,286 @@
     <link rel="stylesheet" href="style.css" />
 
     
-    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/996973c893.js"></script> -->
 
     
-     <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
       rel="stylesheet"/>
 
-    <title>Portfolio</title>
+    <title> My Portfolio</title>
+    
   </head>
   <body>
-    <div class="container navigation pt-2">
-      <div class="row">
-        <div class="col-8 d-flex justify-content- align-items-center">
-          
-        </div>
-        <div class="col-8 pt-2 ">
+    <div class="container navigation pt-3" >
+      <div class="main-row">
+        
+        <div class="col-6 pt-2">
           <div
             class="row text-center p-0 d-flex justify-content-end align-items-center">
             <div class="col-2">
-              <a href="#about" class="text-black-50 navigation-link">About</a>
+              <a href="#about" class="text-black-50 navigation-link"><b>About</b></a>
             </div>
             <div class="col-2">
-              <a href="#education" class="text-black-50 navigation-link">Education</a>
+              <a href="#education" class="text-black-50 navigation-link"><b>Education</b></a>
             </div>
             <div class="col-2">
-                <a href="#experience" class="text-black-50 navigation-link">Experience</a>
-            
+              <a href="#projects" class="text-black-50 navigation-link"><b>Projects</b></a>
             </div>
             <div class="col-2">
-                <a href="#projects" class="text-black-50 navigation-link">Projects</a>
-            
+                <a href="#workexperience" class="text-black-50 navigation-link"><b>Experience</b></a>
             </div>
             <div class="col-2">
-                <a href="#skills" class="text-black-50 navigation-link">Skills</a>
+                <a href="#skills" class="text-black-50 navigation-link"><b>Skills</b></a>
             </div>
             <div class="col-2">
-                <a href="#personaldetails" class="text-black-50 navigation-link">Personal Details</a>
-            
+                <a href="#moreinfo" class="text-black-50 navigation-link"><b>More Info</b></a>
             </div>
-            
-            
-            <div class="main-container container">
-                <div class="row main_row">
-                  <div class="col-6">
-                    <h2 class="text-black-50">Hello, I'm</h2>
-                    <h1 class="text-warning">Vidhi Saha</h1>
-                    <h2 class="text-black-50">Web Developer</h2>
-                  </div>
-                  <div class="col-6">
-                    <img
-                      src= "profile.jpeg"
-                      class="img-fluid"
-                    />
-                  </div>
-          
+           
+          </div>
         </div>
       </div>
     </div>
-        
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h1 class="text-black-50">Hello, I'm</h1>
+          <h1 class="text-black-50">Vidhi Saha</h1>
+          
+        </div>
+        <div class="col-6">
+          <img src="profile.jpeg" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
 
-  
+    <!--about me section-->
+    <div id="about" class="container about p-2" style="margin-top: 50px;">
+      <div class="row-about">
+        <div class="col-8 pl-5 pt-5 pb-5 text-white">
+          <h3 class="mb-4">About me</h3>
+          <p>A highly skilled, competent, and diligent individual is seeking an opportunity to establish a career as a Data Analyst with an esteemed organization where I can utilize my skills and enhance in the field of work. 
+            Strong willingness to exhibit my proficiency in Analytical tools, Statistics , Mathematics and Computing Methodologies in the professional environment. Capable of mastering new technologies</p>
+          <div class="row mb-3">
+            <div class="col-sm-6 py-2">
+                <h6>Name : <span class="text-secondary">Vidhi Saha</span></h6>
+            </div>
+            <div class="col-sm-6 py-2">
+                <h6>Birth date : <span class="text-secondary">12th March , 2003</span></h6>
+            </div>
+            <div class="col-sm-6 py-2">
+                <h6>Phone : <span class="text-secondary">7296073525</span></h6>
+            </div>
+            <div class="col-sm-6 py-2">
+                <h6>Gender : <span class="text-secondary">Female</span></h6>
+            </div>
+            <div class="col-sm-6 py-2">
+                <h6>Languages known : <span class="text-secondary">English, Hindi</span></h6>
+            </div>
+            <div class="col-sm-6 py-2">
+              <h6>Email : <span class="text-secondary">vidhisaha02@gmail.com</span></h6>
+          </div>
+
+          </div>
+          <a href='resume.pdf'>
+            <button class="btn btn-outline-warning"> View CV </button>
+        </a>
+        </div>
+      </div>
+    </div>
+
+
+
    
+   <!--education section--> 
+    <section id="education">
+
+      <div class="container py-5">
+        <div class="container" style="margin-top: 70px;">
+        <h1 class="education-head">EDUCATION</h1>
+        <div class="main-timeline">
+          <div class="timeline left">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>10TH</h3>
+                <p class="mb-0">Percentage - 89.2% , DBMS KADMA HIGH SCHOOL (2017-2018)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline right">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>12TH</h3>
+                <p class="mb-0">Percentage - 84.2%, St MARYS ENGLISH HIGH SCHOOL (2019-2020)</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline left">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>BSc Data Science</h3>
+                <p class="mb-0">Percentage - 73.9%(Agg of 4 semeters), CHRIST UNIVERSITY, PUNE(2020-2023)</p>
+              </div>
+            </div>
+          </div>
+         
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--project section-->
+        <section id = "projects">
+            <h1 class="project-heading" style="margin-top: 70px;"> PROJECTS </h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="p1.jpg"  class="project-img" alt="">
+                    <div class="project-content">
+                      <div class="centered">3D OBJECT DETECTION</div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="p2.jpg"  class="project-img" alt="">
+                    <div class="project-content">
+                      <div class="centered">VALUE CREATION FROM SCRAP</div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="app.js"></script>
+        </section>
+
+       
+
+    <!--Work experience Section -->
+    <section id="workexperience">
+    <div id="workexp" class="container mt-5 pt-5"> 
+      <div class="card-text"  style="margin-top: 70px;color: black;">WORK EXPERIENCE</div>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card-style" style="width: 18rem;">
+            <img
+              src="w2.jpg"
+              class="card-img-top"
+              style="width: 300px;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Intern at TATA STEEL Ltd</h5>
+              <p class="card-info">
+                Tata Steel Limited is an Indian multinational steel-making company, 
+                based in Jamshedpur, Jharkhand and headquartered in Mumbai, Maharashtra. It is a part of the Tata Group.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mb-5">
+          <div class="card-style" style="width: 18rem;">
+            <img
+              src="w1.jpeg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="width: 500px;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Intern at XORIANT SOLUTIONS Pvt. Ltd</h5>
+              <p class="card-info">
+                Xoriant is a product development, 
+                engineering and consulting services company, serving technology startups as well as mid-size to large corporations.
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        
+      </div>
+    </div> 
+    </section>
+
+    <!--skills section-->
+    <section id="skills">
+        <div class="skill-section">
+            <div class="heading"> TECHNICAL SKILLS</div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="s1.png" class="skill-img" alt="">
+                    <h1 class="skill-name">PYTHON</h1>
+            
+                </div>
+                <div class="skill-card">
+                    <img src="s2.png" class="skill-img" alt="">
+                    <h1 class="skill-name">HTML</h1>
+            
+                </div>
+                <div class="skill-card">
+                    <img src="s3.png" class="skill-img" alt="">
+                    <h1 class="skill-name">JAVA</h1>
+            
+                </div>
+                <div class="skill-card">
+                    <img src="s4.png" class="skill-img" alt="">
+                    <h1 class="skill-name">MY SQL</h1>
+            
+                </div>
+                <div class="skill-card">
+                    <img src="s5.jpg" class="skill-img" alt="">
+                    <h1 class="skill-name">R programming</h1>
+            
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- More info-->
+
+    <section id="moreinfo">
+    <div id="social-media" class="container-fluid">
+      <div class="container text-black-50 py-5">
+        <h1 class="text-warning">For further information</h1>
+        <h3 class="m-heading" style="color:black">Contact me through :</h3>
+        <div class="row pt-5">
+
+          <!-- <div class="col-3 media_link btn" href="">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.linkedin.com/in/vidhi-saha-9214b4206/" target="_blank">
+                  <button class="button1" type="button">LinkedIn</button>
+                </a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center"> -->
+                <!-- <i class="fab fa-linkedin-in fa-2x text-secondary" style="position:absolute;left:1%" ></i> -->
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            
+                <a class="bn39" href="https://www.linkedin.com/in/vidhi-saha-9214b4206/" target="_blank"><span class="bn39span">LinkedIn</span></a>
+                <!-- <img src="linkedin.png" class="logo1" style="width:2px;height:1px;"> -->
+
+                <a class="bn391" href="https://github.com/vidhisaha03" target="_blank"><span class="bn39span">GitHub</span></a>
+                <!-- <img src="github.png" class="logo1" style="width:100px;height:1px;"> -->
+            
+          </div>
+
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    
+      </div>
+    </footer>
   </body>
 </html>
