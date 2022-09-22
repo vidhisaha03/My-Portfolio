@@ -18,7 +18,12 @@
     transition: 0.5s ease;
   } 
 
-  
+  .heading1{
+    position: absolute;
+    top: 2px;
+    color: #000;
+    font-size: 35px;
+  }
 
   .main-container{
     padding-left: 250px; 
@@ -503,6 +508,8 @@
   left:500px;
   
 }
+
+
 
 .bn391 {
   background-image: linear-gradient(135deg,#313552,white,black);
